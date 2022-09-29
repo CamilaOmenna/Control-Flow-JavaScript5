@@ -1,0 +1,17 @@
+const prompt = require('prompt-sync')()
+
+const n1 = numerointeiro(prompt('Primieiro número :'))
+const n2 = numerointeiro(prompt('Segundo número 2: '))
+const n3 = numerointeiro(prompt('Terceiro numero  3: '))
+
+if(n1 > n2) { if(n1 > n3)
+    console.log(`A relação entre o primeiro e segundo número: ${n1}`)
+}
+ if(n2 > n1){ if(n2 > n3)
+
+    console.log(`O maior número inteiro é:') ${n2}`)
+}
+if(n3 > n1) { if(n3 > n2)
+
+    console.log(`O maior número inteiro é: ${n3}`)
+}
